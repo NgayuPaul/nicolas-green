@@ -41,12 +41,12 @@ export default function Hero() {
           </div>
         </div>
         {/* RIGTH VISUAL PLACE HOLDER */}
-        <div className="w-full md:w-full h-60 md:h-80 bg-white rounded-2xl shadow-sm flex items-center justify-center overflow-hidden">
-          <span className="text-gray-400">
+        <div className="w-full h-60 md:h-80 bg-white rounded-2xl shadow-sm flex items-center justify-center overflow-hidden">
+          <span className="text-gray-400 w-full">
             <img
               src={hero}
               alt="home-hero-image"
-              className="w-full md:full h-60 md:h-80"
+              className="w-full h-60 md:h-80"
             />
           </span>
         </div>

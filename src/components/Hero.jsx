@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import hero from "../assets/hero.jpg";
 export default function Hero() {
   return (
-    <section className="bg-green-400 p-4 md:p-14">
+    <section className="bg-green-400 pt-16 px-4 md:p-14">
       <div className="max-w-7xl mx-auto  py-14 grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center md:text-left">
         {/* LEFT TEXT CONTENT*/}
         <div className="px-2">
@@ -32,12 +32,12 @@ export default function Hero() {
               Explore Our Companies
             </button>
 
-            <Link
-              to="/contact"
+            <a
+              href="#contact"
               className="border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary hover:text-white transition "
             >
               Contact Us
-            </Link>
+            </a>
           </div>
         </div>
         {/* RIGTH VISUAL PLACE HOLDER */}
